@@ -1,4 +1,4 @@
-package com.swanand.fetchviewer
+package com.swanand.fetchviewer.di
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

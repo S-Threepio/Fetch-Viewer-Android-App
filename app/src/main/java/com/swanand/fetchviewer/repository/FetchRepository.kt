@@ -1,5 +1,7 @@
-package com.swanand.fetchviewer
+package com.swanand.fetchviewer.repository
 
+import com.swanand.fetchviewer.network.FetchService
+import com.swanand.fetchviewer.ListItem
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

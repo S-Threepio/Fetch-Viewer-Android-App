@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FetchViewer</string>
+    <string name="api_error_text">Failed to fetch data.\nPlease try again.</string>
+    <string name="api_error_retry">Retry</string>
 </resources>

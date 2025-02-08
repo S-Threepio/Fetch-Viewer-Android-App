@@ -1,13 +1,13 @@
-package com.swanand.fetchviewer
+package com.swanand.fetchviewer.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.swanand.fetchviewer.ListItem
+import com.swanand.fetchviewer.repository.FetchRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Inject
 
 @HiltViewModel

@@ -1,5 +1,6 @@
-package com.swanand.fetchviewer
+package com.swanand.fetchviewer.network
 
+import com.swanand.fetchviewer.ListItem
 import retrofit2.http.GET
 
 interface FetchService {

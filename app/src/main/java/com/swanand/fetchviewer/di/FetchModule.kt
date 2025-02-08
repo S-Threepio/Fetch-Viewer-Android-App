@@ -1,5 +1,7 @@
-package com.swanand.fetchviewer
+package com.swanand.fetchviewer.di
 
+import com.swanand.fetchviewer.repository.FetchRepository
+import com.swanand.fetchviewer.network.FetchService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

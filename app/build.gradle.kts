@@ -64,7 +64,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    // Lifecycle & ViewModel
 
     // Networking (Retrofit & Gson)
     implementation(libs.retrofit)
@@ -73,16 +72,9 @@ dependencies {
     // Coroutines (for async operations)
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
-
+    
     // Navigation for Compose
     implementation(libs.androidx.navigation.compose)
-
-
-
-    // Optional: Logging Interceptor (for debugging API calls)
-    implementation(libs.logging.interceptor)
-
-
     implementation(libs.hilt.android)
     ksp(libs.hilt.android.compiler)
 
